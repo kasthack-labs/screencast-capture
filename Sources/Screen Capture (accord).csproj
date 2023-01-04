@@ -108,12 +108,8 @@
       <HintPath>..\..\..\..\Sources\packages\PropertyChanged.Fody.2.1.4\lib\netstandard1.0\PropertyChanged.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="SharpDX">
-      <HintPath>..\..\..\..\Externals\SharpDX\v401\net45\SharpDX.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.DirectSound">
-      <HintPath>..\..\..\..\Externals\SharpDX\v401\net45\SharpDX.DirectSound.dll</HintPath>
-    </Reference>
+    <PackageReference Include="SharpDX" Version="4.0.1" />
+   <PackageReference Include="SharpDX.DirectSound" Version="4.0.1" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
